@@ -111,21 +111,10 @@ La consulta se ejecuta al cargar la ventana en el evento `Form1_Load`:
   - En `Form1.cs`, un bloque `try-catch` captura excepciones de conexión (como servicio detenido o nombre de servidor erróneo) y muestra un cuadro de diálogo descriptivo indicando al usuario que verifique el estado del servidor.
   - Si la base de datos responde pero no contiene registros (`productos.Count == 0`), se muestra un mensaje informativo indicando que no se encontraron productos.
 
-## 10. Requisitos y Pasos para Ejecutar el Proyecto
-### Requisitos
+## 10. Requisitos
 - .NET SDK 10.0 instalado.
 - Visual Studio 2022 (con compatibilidad para .NET 10 y herramientas de escritorio .NET).
 - Microsoft SQL Server con la base de datos `SmartBusinessPro.` en ejecución.
-
-### Pasos para Ejecutar
-1. Clonar el repositorio localmente o descargar la carpeta de la solución:
-   ```bash
-   git clone https://github.com/HeriJosue123/Casos-de-analisis-Creaci-n-de-contextos-y-cadenas-de-conexi-n-en-Entity-Framework-Core.git
-   ```
-2. Asegurar que SQL Server esté en ejecución y cuente con la base de datos `SmartBusinessPro.` con sus tablas `Categorias` y `Productos`.
-3. Si el nombre del servidor difiere de `THEyosua_503`, ajustar la propiedad `Server` en `SmartBusinessPro.WinForms/App.config`.
-4. Abrir la solución `coleccion productos smarbussines.slnx` en Visual Studio 2022.
-5. Establecer `SmartBusinessPro.WinForms` como proyecto de inicio y presionar `F5` para iniciar la aplicación (o ejecutar desde terminal con `dotnet run --project SmartBusinessPro.WinForms/SmartBusinessPro.WinForms.csproj`).
 
 ## 11. Enlace al Repositorio
 Repositorio en GitHub:
