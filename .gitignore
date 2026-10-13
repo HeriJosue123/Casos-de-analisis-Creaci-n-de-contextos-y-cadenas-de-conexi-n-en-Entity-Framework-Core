@@ -1,0 +1,41 @@
+## Visual Studio / .NET GitIgnore
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio working files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono / VS Code / Rider
+.vscode/
+.idea/
+
+# User-specific developer files
+*.rsuser
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet Packages
+*.nupkg
+packages/
+!**/packages/build/
+
+# Backup and temporary files
+*.bak
+*.tmp
+*~
+thumbs.db
+desktop.ini
